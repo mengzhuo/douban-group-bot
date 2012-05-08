@@ -61,11 +61,11 @@ def main():
     refresh_interval = 1
     #set sofa Content
     sofa_content = '今晚沙发都是我的啦，B友们不要嫉妒啊\nby:俺的PYTHON机器人'
-    data = {'form_email':'mengzhuo1203@gmail.com', 'form_password':'0-=p[]', 'action':'/'}
+    data = {'form_email':'mengzhuo1203@gmail.com', 'form_password':'abcdefg', 'action':'/'}
     #到这就不要修改了，除非你知道你在干吗
     
     #FIXME Why need one more Login, wired?
-    init_douban = post(du,{},cj)
+    if browse(du,cj)
     
     
     #login
